@@ -1,63 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Angelic Portfolio</title>
-  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@latest/dist/tailwind.min.css" rel="stylesheet">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kevin Blinn | Software Engineer</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+<style>
+  .sidebar-icons {
+    width: 20px; 
+    height: 20px;
+  }
+</style>
 </head>
-<body class="bg-blue-900 text-white">
-
-  <!-- Header -->
-  <header class="flex flex-wrap items-center justify-between p-4">
-    <img src="/Users/kevinblinn/Documents/GitHub/portfolio-website/images/home-page-logo.webp" alt="Angelic Logo" class="h-12">
-    <nav>
-      <ul class="flex space-x-4">
-        <li><a href="#home" class="hover:text-blue-300">Home</a></li>
-        <li><a href="#about" class="hover:text-blue-300">About</a></li>
-        <li><a href="#projects" class="hover:text-blue-300">Projects</a></li>
-        <li><a href="#contact" class="hover:text-blue-300">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <!-- Home -->
-  <section id="home" class="flex flex-col items-center justify-center h-screen text-center">
-    <h1 class="text-4xl font-bold">Welcome to My Angelic Portfolio</h1>
-    <p class="mt-3">Explore my projects and coding journey.</p>
-    <button class="mt-5 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-      View My Work
-    </button>
-  </section>
-
-  <!-- About -->
-  <section id="about" class="container mx-auto p-8">
-    <h2 class="text-3xl font-bold">About Me</h2>
-    <p class="mt-4">I'm a computer science student with a passion for coding and developing innovative solutions.</p>
-    <!-- Add more about your background here -->
-  </section>
-
-  <!-- Projects -->
-  <section id="projects" class="container mx-auto p-8">
-    <h2 class="text-3xl font-bold">My Projects</h2>
-    <div class="flex flex-wrap -mx-4">
-      <!-- Project cards will go here -->
+<body class="bg-black text-white font-sans">
+  <div class="flex h-screen">
+    <!-- Sidebar -->
+    <div class="w-64 bg-gray-800 p-6">
+      <div class="mb-8">
+        <div class="text-white text-3xl font-bold mb-2">Kevin Blinn</div>
+        <div class="text-gray-300 text-lg">Software Engineer</div>
+      </div>
+      <nav>
+        <ul class="text-gray-300 text-sm">
+          <li class="mb-6"><i class="fas fa-home sidebar-icons"></i> About</li>
+          <li class="mb-6"><i class="fas fa-briefcase sidebar-icons"></i> Experience</li>
+          <li class="mb-6"><i class="fas fa-archive sidebar-icons"></i> Projects</li>
+          <li class="mb-6"><i class="fas fa-cogs sidebar-icons"></i> Skills</li>
+          <li class="mb-6"><i class="fas fa-award sidebar-icons"></i> Awards</li>
+          <li class="mb-6"><i class="fas fa-university sidebar-icons"></i> Education</li>
+          <li class="mb-6"><i class="fas fa-envelope sidebar-icons"></i> Contact</li>
+          <li class="mb-6"><i class="fas fa-blog sidebar-icons"></i> Blog</li>
+          <li><i class="fas fa-file-alt sidebar-icons"></i> Resume</li>
+        </ul>
+      </nav>
+      <img src="/Users/kevinblinn/Documents/GitHub/portfolio-website/images/home-page-logo.webp" alt="home-page-logo" class="w-32 h-32 rounded-full mx-auto mt-8">
     </div>
-  </section>
-
-  <!-- Contact -->
-  <section id="contact" class="container mx-auto p-8">
-    <h2 class="text-3xl font-bold">Get in Touch</h2>
-    <form class="mt-4">
-      <!-- Contact form fields -->
-    </form>
-  </section>
-
-  <!-- Footer -->
-  <footer class="text-center p-4">
-    © 2024 Your Name. All rights reserved.
-  </footer>
-
-  <script src="https://cdn.jsdelivr.net/npm/tailwindcss@latest/dist/tailwind.min.js"></script>
+    
+    <!-- Main Content -->
+    <div class="flex-1 flex items-center justify-center">
+      <div>
+        <h1 class="text-6xl font-bold">Hello, I'm Kevin Blinn</h1>
+        <p class="text-2xl mt-4">I'm a software engineer based in Bluffton, SC.</p>
+      </div>
+    </div>
+    
+    <!-- Profile Image Placeholder -->
+    <div class="absolute right-0 bottom-0 m-8">
+      
+    </div>
+  </div>
 </body>
 </html>
